@@ -1,0 +1,88 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 80px;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #4e4e4e;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    height: 180px;
+    border-top: solid 1px #cdcdcd;
+    background-color: rgb(238, 238, 238);
+}
+
+.footertxt {
+    background-color: rgb(238, 238, 238);
+    min-height: 100px;
+    float: left;
+    margin: 20px 0 0 40px;
+    padding: 10px;
+}
+
+
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.nav {
+    max-width: 300px;
+    border-right: solid 1px #cdcdcd;
+    padding-right: 55px;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+figure {
+    float: left;
+}
+
+search {
+    width: 400px;
+    float: right;
+    margin: 10px;
+    padding: 0 50px 0 0;
+}
